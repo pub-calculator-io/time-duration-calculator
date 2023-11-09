@@ -13,6 +13,8 @@ Use our time duration calculator to determine how much time has passed between t
 
 Use our time duration calculator to determine how much time has passed between two events. It is perfect for tracking work time for your business.
 
+[Time Duration Calculator Homepage](https://www.calculator.io/time-duration-calculator/ "Time Duration Calculator Homepage")
+
 __Shortcode__
 
 Use the Time Duration Calculator shortcode:
