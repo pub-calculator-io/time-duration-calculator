@@ -1,4 +1,4 @@
-=== Time Duration Calculator by Calculator.iO ===
+=== Time Duration Calculator ===
 Contributors: calculatorio
 Tags: time duration calculator, event time tracking, work time tracking, days calculation, hours calculation, minutes calculation, seconds calculation, time between dates, accurate time calculations, elapsed time calculator
 Requires at least: 5.0
