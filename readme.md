@@ -1,4 +1,4 @@
-# Time Duration Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Time Duration Calculator Widget for WordPress
 
 Use our time duration calculator to determine how much time has passed between two events. It is perfect for tracking work time for your business.
 
