@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Time Duration Calculator by www.calculator.io
+Plugin Name: CI Time duration calculator
 Plugin URI: https://www.calculator.io/time-duration-calculator/
 Description: Use our time duration calculator to determine how much time has passed between two events. It is perfect for tracking work time for your business.
 Version: 1.0.0
