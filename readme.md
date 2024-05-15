@@ -3,7 +3,6 @@
 Use our time duration calculator to determine how much time has passed between two events. It is perfect for tracking work time for your business.
 
 ![Time Duration Calculator Input Form](/assets/images/screenshot-1.png "Time Duration Calculator Input Form")
-![Time Duration Calculator Calculation Results](/assets/images/screenshot-2.png "Time Duration Calculator Calculation Results")
 
 ## Installation
 

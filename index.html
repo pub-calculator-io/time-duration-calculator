@@ -166,19 +166,21 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
                 
-                	<link rel="stylesheet" href="./assets/css/air-datepicker.css" />
-                	<script type="text/javascript" src="./assets/js/lib/air-datepicker.js" id="datepicker_script"></script>
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                	<link rel="stylesheet" href="./assets/css/air-datepicker.min.css" defer />
+                	<script type="text/javascript" src="./assets/js/lib/air-datepicker.js" id="datepicker_script" defer></script>
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
                 <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row tab " data-tab="1">
                 
                 
-                		<button class="system-switcher system-switcher--format" onclick="toggleSystem(this)">
+                		<button class="system-switcher system-switcher--format" onclick="toggleSystem(this)" aria-label="Switch System">
                 			<div class="system-switcher__circle"></div>
                 			<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                 	<path d="M7.84254 5.61418C7.84254 4.72269 8.56524 4 9.45673 4C10.7869 4 11.5462 5.51856 10.7481 6.58269L7.84254 10.4567H11.4745M3 5.29135L4.08967 4.41961C4.30105 4.2505 4.61418 4.401 4.61418 4.6717V10.4567" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -199,13 +201,15 @@
                 		</script>
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculateDate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculateDate(this); animateElements();" data-action="calculateDate" id="action-button">Calculate</button>
                 </div>
                 
                 
                 
-                	<link rel="stylesheet" href="./assets/css/air-datepicker.css" />
-                	<script type="text/javascript" src="./assets/js/lib/air-datepicker.js" id="datepicker_script"></script>
+                
+                
+                	<link rel="stylesheet" href="./assets/css/air-datepicker.min.css" defer />
+                	<script type="text/javascript" src="./assets/js/lib/air-datepicker.js" id="datepicker_script" defer></script>
                 
             </div>
         </div>
@@ -221,16 +225,15 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col tab tab--active" data-tab="0">
 	<p class="table-cell table-cell--dark table-cell--only-title">TIME</p>
-	<p class="table-cell table-cell--only" id="result_a">4 hours 45 minutes 13 seconds</p>
+	<p class="table-cell table-cell--only animate" id="result_a">4 hours 45 minutes 13 seconds</p>
 </div>
 
 <div class="calculator-result col tab" data-tab="1">
 	<p class="table-cell table-cell--dark table-cell--only-title">TIME</p>
-	<p class="table-cell table-cell--only" id="result_b">12 hours 12 minutes</p>
+	<p class="table-cell table-cell--only animate" id="result_b">12 hours 12 minutes</p>
 </div>
 </span>
     </div>
